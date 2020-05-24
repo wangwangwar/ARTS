@@ -26,12 +26,14 @@ Norvig 的方法偏向于自顶向下，即先找到了整体解决方法，再�
 
 3. Software engineering vs. Algorithm
 
-本文作者指出，Jeffries 博客展示的就是当一个程序员面对自己不知道怎么解决的问题时，应用 TDD 尝试解决时的表现。所以在文章 [Discussions about TDD always make me think of Ron Jeffries' attempt to develop a sudoku-solver using TDD.](https://news.ycombinator.com/item?id=3033446) 里说到一点我很赞同：
-    > "Old-fashioned engineering vs. TDD" is misleading. The difference is that Norvig knew in advance how to solve the problem - constraint propagation - while Jeffries presumably did not.
+  本文作者指出，Jeffries 博客展示的就是当一个程序员面对自己不知道怎么解决的问题时，应用 TDD 尝试解决时的表现。所以在文章 [Discussions about TDD always make me think of Ron Jeffries' attempt to develop a sudoku-solver using TDD.](https://news.ycombinator.com/item?id=3033446) 里说到一点我很赞同：
+> "Old-fashioned engineering vs. TDD" is misleading. The difference is that Norvig knew in advance how to solve the problem - constraint propagation - while Jeffries presumably did not.
 
-    我总结是，软件开发两块大的方面，一个是算法，这个关注如何定义问题和给出问题的解;另一个是工程方法，是自顶向下还是自底向上，是TDD还是BDD。对于简单一点的问题，一来就上手实现，比如TDD推崇的，当然可以，因为一开始你就知道怎么解决这个问题;但是对于那些你不知道怎么解决的问题，先停下来思考如何定义这个问题，用什么样的算法，时间和空间复杂度如何，先思考清楚这些是最重要的。 
-    想到一个比喻，用 TDD 来解决你不知道怎么解决的问题时，就像盲人摸象，一开始你写了几个 case 并通过了（摸到象腿），后来又增加了几个 case 也通过了（摸到象耳朵），然后又增加了几个 case 还是通过了（摸到象鼻），最后发现写出的程序并不能解决问题（没有见过完整的大象）。
-    很多互联网公司喜欢用算法题筛选面试者，已经自然产生的刷题网站 LeetCode 等，都是在说软件开发的算法部分。
+  我总结是，软件开发两块大的方面，一个是算法，这个关注如何定义问题和给出问题的解;另一个是工程方法，是自顶向下还是自底向上，是TDD还是BDD。对于简单一点的问题，一来就上手实现，比如TDD推崇的，当然可以，因为一开始你就知道怎么解决这个问题;但是对于那些你不知道怎么解决的问题，先停下来思考如何定义这个问题，用什么样的算法，时间和空间复杂度如何，先思考清楚这些是最重要的。 
+  
+  想到一个比喻，用 TDD 来解决你不知道怎么解决的问题时，就像盲人摸象，一开始你写了几个 case 并通过了（摸到象腿），后来又增加了几个 case 也通过了（摸到象耳朵），然后又增加了几个 case 还是通过了（摸到象鼻），最后发现写出的程序并不能解决问题（没有见过完整的大象）。
+  
+  很多互联网公司喜欢用算法题筛选面试者，已经自然产生的刷题网站 LeetCode 等，都是在说软件开发的算法部分。
 
 ## 3. Tip
 
