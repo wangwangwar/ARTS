@@ -54,10 +54,13 @@ Norvig 的方法偏向于自顶向下，即先找到了整体解决方法，再�
 
 ## 4. Share
 
-https://www.onivim.io
+[完美是现代的异端](https://abe-winter.github.io/heresy/2017/09/03/perfection.html)
 
-结合了 Vim 和 VSCode 的编辑器。
-1. 结合程度比 VSCode + Vim 插件要好。
-2. 支持 Mac，Windows 和 Linux (Ubuntu 16.04+, CentOS 7+, Manjaro), 但是在我的 Arch Linux 上使用还有问题。
-3. 支持 VSCode 插件。
-4. 使用 ReasonML 开发。
+太多值得拿出来说的点：
+> The modern meaning of perfect, ‘ideal’, isn’t a physical object. It’s not something you can point to. And it’s not a property you can measure when you’re finished.
+
+> People say ‘the perfect is the enemy of the good’. I prefer ‘the ego is the enemy of the done’. Having a measurable line for final product lets you move on to the next thing.
+
+> We need to be very clear about what, when & how much we’re delivering or we’ll never hit those targets.
+
+> To me that means we should plan to do as little as possible to win. Not because we’re lazy, but because our eyes are bigger than our stomachs when it comes to planning for the future.
