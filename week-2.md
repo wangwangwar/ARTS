@@ -1,13 +1,41 @@
-# Algorithm
+# 第二周打卡
+
+## Algorithm
 
 LeetCode 516. 最长回文子序列
+
 https://leetcode-cn.com/submissions/detail/74336040/
 
-# Tips
+## Tips
 
+Tmux 基本操作：
 
+prefix := Ctrl+B
 
-# Review
+### ession相关操作
+查看/切换session	prefix s
+离开Session	prefix d
+重命名当前Session	prefix $
+
+### window相关操作 
+新建窗口	prefix c
+切换到上一个活动的窗口	prefix space
+关闭一个窗口	prefix &
+使用窗口号切换	prefix 窗口号
+
+### Pane相关操作
+切换到下一个窗格	prefix o
+查看所有窗格的编号	prefix q
+垂直拆分出一个新窗格	prefix “
+水平拆分出一个新窗格	prefix %
+暂时把一个窗体放到最大	prefix z
+滚动 prefix [
+
+### 插件
+Mouse https://github.com/NHDaly/tmux-better-mouse-mode
+
+## Review
+
 [Programming principles from id software](https://blog.usejournal.com/programming-principles-from-id-software-bed83e762210)
 
 ID software 不到10个人的开发团队，在6年时间内快速交付了 28 个游戏。如何做到的？
@@ -34,7 +62,8 @@ ID software 不到10个人的开发团队，在6年时间内快速交付了 28 �
 11. 给程序员创造的自由
     1. 结果重要
 
-# Share
+## Share
 
 [12 Signs You’re Working in a Feature Factory](https://cutle.fish/blog/12-signs-youre-working-in-a-feature-factory)
+
 [12 Signs You’re Working in a Feature Factory — 3 Years Later](https://amplitude.com/blog/12-signs-youre-working-in-a-feature-factory-3-years-later)
