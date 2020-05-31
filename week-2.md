@@ -12,27 +12,27 @@ Tmux 基本操作：
 
 prefix := Ctrl+B
 
-### ession相关操作
-查看/切换session	prefix s
-离开Session	prefix d
-重命名当前Session	prefix $
+1. session相关操作
+    - 查看/切换session	prefix s
+    - 离开Session	prefix d
+    - 重命名当前Session	prefix $
 
-### window相关操作 
-新建窗口	prefix c
-切换到上一个活动的窗口	prefix space
-关闭一个窗口	prefix &
-使用窗口号切换	prefix 窗口号
+2. window相关操作 
+    - 新建窗口	prefix c
+    - 切换到上一个活动的窗口	prefix space
+    - 关闭一个窗口	prefix &
+    - 使用窗口号切换	prefix 窗口号
 
-### Pane相关操作
-切换到下一个窗格	prefix o
-查看所有窗格的编号	prefix q
-垂直拆分出一个新窗格	prefix “
-水平拆分出一个新窗格	prefix %
-暂时把一个窗体放到最大	prefix z
-滚动 prefix [
+3. Pane相关操作
+    - 切换到下一个窗格	prefix o
+    - 查看所有窗格的编号	prefix q
+    - 垂直拆分出一个新窗格	prefix “
+    - 水平拆分出一个新窗格	prefix %
+    - 暂时把一个窗体放到最大	prefix z
+    - 滚动 prefix [
 
-### 插件
-Mouse https://github.com/NHDaly/tmux-better-mouse-mode
+4. 插件
+    - Mouse https://github.com/NHDaly/tmux-better-mouse-mode
 
 ## Review
 
