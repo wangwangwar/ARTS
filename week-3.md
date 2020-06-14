@@ -16,3 +16,4 @@ https://leetcode-cn.com/submissions/detail/77478218/
 
 ## Share
 
+[Consume less, create more](https://tjcx.me/posts/consumption-distraction/)
