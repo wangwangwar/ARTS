@@ -8,6 +8,12 @@ LeetCode
 
 ## Tips
 
+Android Root工具：
+TWRP
+Magisk
+Xposed
+XDA
+
 
 
 ## Review
