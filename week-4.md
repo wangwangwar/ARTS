@@ -22,7 +22,7 @@ Android Root工具：
 
 ## Review
 
-[Learn Rust With Entirely Too Many Linked Lists]: https://rust-unofficial.github.io/too-many-lists/index.html
+[Learn Rust With Entirely Too Many Linked Lists](https://rust-unofficial.github.io/too-many-lists/index.html)
 
 ### 通过实现 6 种链表，教学以下知识点：
 - The following pointer types: `&`, `&mut`, `Box`, `Rc`, `Arc`, `const`, `mut`
