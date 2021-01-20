@@ -22,6 +22,35 @@ Android Root工具：
 
 ## Review
 
+[Learn Rust With Entirely Too Many Linked Lists]: https://rust-unofficial.github.io/too-many-lists/index.html
 
+### 通过实现 6 种链表，教学以下知识点：
+- The following pointer types: `&`, `&mut`, `Box`, `Rc`, `Arc`, `const`, `mut`
+- Ownership, borrowing, inherited mutability, interior mutability, Copy
+- All The Keywords: struct, enum, fn, pub, impl, use, ...
+- Pattern matching, generics, destructors
+- Testing
+- Basic Unsafe Rust
+
+### 为啥是链表
+
+#### I can't afford amortization 不能忍受分期偿还？
+
+#### Linked lists waste less space 空间浪费更少
+
+#### I use linked lists all the time in <functional language> 
+在函数式语言中，链表非常优雅，可以不用改变他们而操作它们（？），可以递归地描述，可以利用惰性实现无穷链表。
+可以不用可变状态实现迭代。
+
+#### Linked lists are great for building concurrent data structures! 链表很适合构建并发数据结构
+
+#### Mumble mumble kernel embedded something something intrusive.
+
+#### Iterators don't get invalidated by unrelated insertions/removals （？）
+
+#### They're simple and great for teaching!
+
+### 教学特点
+教程以一个初学者使用 Rust 的视角去趟编译器的各种坑（不会直接给你正确答案），并解读这些错误都是什么，背后原理是啥，怎么去改。
 
 ## Share
