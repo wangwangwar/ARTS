@@ -40,3 +40,11 @@ Data model
   - XOR encoding
 
 ## Share
+
+[Why and how we wrote a compiler in Rust](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-1-x-the-context-e2f83b10edb9)
+
+为什么：
+1. 团队已有 Rust 经验且信任 Rust
+2. 项目是安全相关，Rust 擅长领域
+3. Compile Rust to WASM
+4. 
