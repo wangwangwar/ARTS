@@ -4,6 +4,16 @@
 
 ## Tips
 
+如果希望每一个需要登录的方法，都从 Session 中获得当前用户标识，并进行一些后续处理的话，我们没有必要在每一个方法内都复制粘贴相同的获取用户身份的逻辑，可以定义一个自定义注解 @LoginRequired 到 userId 参数上，然后通过 HandlerMethodArgumentResolver 自动实现参数的组装：
+```java
+@GetMapping("right")
+public String right(@LoginRequired Long userId) {
+    return "当前用户Id：" + userId;
+}
+```
+
+实现见 https://time.geekbang.org/column/article/235700
+
 ## Review
 
 ### [Write a time-series database engine from scratch](https://nakabonne.dev/posts/write-tsdb-from-scratch/)
